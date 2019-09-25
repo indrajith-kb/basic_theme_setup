@@ -1,0 +1,13 @@
+name: Theme Name
+type: theme
+description: 'A custom theme for D8'
+core: 8.x
+libraries:
+  - theme_name/global-styling
+base theme: classy
+regions:
+  header: Header
+  banner: Banner
+  content: content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

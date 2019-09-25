@@ -1,0 +1,14 @@
+//----------------------- Define typi and font sizes -----------------//
+//font-size
+$breakpoints: (
+        small: 768px,
+        large: 1025px
+);
+
+$typi: (
+        base: (
+                null: 16px,
+                small: 16px,
+                large: 16px
+        )
+);

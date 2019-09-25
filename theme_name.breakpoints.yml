@@ -1,0 +1,20 @@
+theme_name.mobile:
+  label: mobile
+  mediaQuery: 'all and (max-width: 767px)'
+  weight: 0
+  multipliers:
+    - 1x
+
+theme_name.tablet:
+  label: tablet
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1024)'
+  weight: 1
+  multipliers:
+    - 1x
+
+theme_name.desktop:
+  label: desktop
+  mediaQuery: 'all and (min-width: 1025px)'
+  weight: 2
+  multipliers:
+    - 1x
